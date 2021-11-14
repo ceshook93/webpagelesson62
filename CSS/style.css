@@ -1,0 +1,126 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.topbar, .mainheader {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    }
+.topbar {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.left {
+    margin-left: 50px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.right {
+    margin-right: 50px;
+    gap: 15px;
+}
+.mainheader {
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.left1 {
+    width: 300px;
+}
+.mainheader p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+h1, p {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+   
+}
+button {
+    background-color: #3882F6;
+    margin-top: 10px;
+    border-radius: 6px
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.middle {
+    display: flex;
+    gap: 20px;
+}
+.logo1 {
+    max-width: 100px;
+    text-align: center;
+    color: #1F2937;
+}
+.inspiringquote {
+    background-color: #E5E7EB;
+    padding: 60px 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px;
+    max-width: 550px;
+    font-size: 36px;
+    color: #1F2937;
+  
+}
+
+.quote1 {
+    align-self: center;
+
+}
+.quote2 {
+    align-self: flex-end;
+}
+.cta {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    border-radius: 6px
+}
+.ctatext {
+    margin: 10px 100px;
+}
+.ctabutton {
+    color: white;
+    max-height: 35px;
+    padding: 3px 12px;
+}
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 250px;
+    margin-top: 30px;
+}
